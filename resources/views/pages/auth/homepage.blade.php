@@ -6,6 +6,7 @@
   </head>
   <body>
     <div class="home-page">
+
       <div class="div">
         <div class="overlap">
           <p class="kampus-merdeka">
@@ -32,17 +33,17 @@
         </div>
         <div class="div-2">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <img class="img" src="img/LogoUb.png" />
           <img class="removal" src="img/removal-4.png" />
           <a href=""><div class="text-wrapper-2">Program Magang</div></a>
           <div class="text-wrapper-3">Unggah Dokumen</div>
           <a href="profil.html"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
           <div class="div-2"></div>
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <img class="img" src="img/LogoUb.png" />
           <img class="removal" src="img/Logo Vokasi.png" />
           <a href="loginuser.html"><div class="text-wrapper-2">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-3">Unggah Dokumen</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-3">Unggah Dokumen</div></a>
           <a href="profil.html"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="profi.css" />
+    <link rel="stylesheet" href="{{ asset('css/profi.css') }}" />
   </head>
   <body>
     <div class="profil">
@@ -48,32 +48,36 @@
             </p>
             <p class="text"><span class="span">Pemalsuan Dokumen berakibat masuk ke daftar blacklist</span></p>
           </div>
+          <form action="{{ route('unggahdokumen',auth()->user()->id_user) }}" method="POST" enctype="multipart/form-data">
+          @csrf
+          @method('PUT')
           <div class="group">
-            <input class="Pilihfile" type="file" placeholder="Pilih File" name="pilihfile" />
+            <input class="Pilihfile" type="file" placeholder="Pilih File" name="file_cv" />
           </div>
           <div class="overlap-wrapper">
-            <div class="div-wrapper"><div class="text-wrapper-13">Pilih File</div></div>
+            <input class="Pilihfile" type="file" placeholder="Pilih File" name="file_ktp" />
           </div>
           <div class="overlap-group-wrapper">
-            <div class="div-wrapper"><div class="text-wrapper-13">Pilih File</div></div>
+            <input class="Pilihfile" type="file" placeholder="Pilih File" name="file_kk" />
           </div>
           <div class="rectangle-7"></div>
           <div class="group-2">
-            <div class="div-wrapper"><div class="text-wrapper-13">Pilih File</div></div>
+            <input class="Pilihfile" type="file" placeholder="Pilih File" name="surat_pengantar" />
           </div>
           <div class="group-3">
-            <div class="div-wrapper"><div class="text-wrapper-14">Download contoh surat</div></div>
+            <div class="div-wrapper"><div class="text-wrapper-14"><a href=""> <button>DownloadSurat</button></a></div></div>
           </div>
           <div class="group-4">
             <div class="overlap-3">
               <div class="rectangle-8"></div>
-              <a href="lengkapidokumen.html"><div class="text-wrapper-15">Simpan</div></a>
+              <button type="submit"><div class="text-wrapper-15">Simpan</div></button>
             </div>
           </div>
         </div>
+    </form>
         <div class="overlap-4">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <img class="img" src="img/LogoUb.png" />
           <img class="removal" src="img/Logo Vokasi.png" />
           <a href="programmagang.html"><div class="text-wrapper-16">Program Magang</div></a>
           <a href="unggahdokumen.html"><div class="text-wrapper-17">Unggah Dokumen</div></a>

@@ -39,7 +39,7 @@
     </form>
         <div class="overlap-9">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <img class="img" src="img/LogoUb.png" />
           <img class="removal" src="img/Logo Vokasi.png" />
         </div>
       </div>

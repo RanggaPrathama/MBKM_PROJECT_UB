@@ -15,7 +15,10 @@ return new class extends Migration
             $table->id('id_user');
             $table->string('name');
 
-            $table->string('file')->nullable();
+            $table->string('file_cv')->nullable();
+            $table->string('file_ktp')->nullable();
+            $table->string('file_kk')->nullable();
+            $table->string('surat_pengantar')->nullable();
             $table->string('jenis_kelamin');
             $table->date('tgl_lahir');
             $table->string('tempat_kelahiran');

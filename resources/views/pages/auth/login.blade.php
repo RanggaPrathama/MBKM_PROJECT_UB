@@ -22,15 +22,17 @@
 
                 <div class="group" style="margin-top:20px">
 
+                <form action="" method="POST">
+                    @csrf
                     <div>
-                        <input class="email" placeholder="username" type="text" name="email"/>
-                        <input class="password" placeholder="password" type="password" name="password"/>
+                        <input class="email" placeholder="Nim/Nik" type="text" name="nim_nik"/>
+                        <input class="password" placeholder="Password" type="password" name="password"/>
                         </div>
 
                         <div>
-                            <a href="homepage.html"><button class="sign-in" type="submit">Login</button></a>
+                           <button class="sign-in" type="submit">Login</button>
                             </div>
-
+                        </form>
 
 
                 </div>
@@ -45,7 +47,7 @@
                 </div>
             </div>
 
-            <img class="img" src="img/Logo UB.png" />
+            <img class="img" src="img/LogoUb.png" />
             <img class="MASTER" src="img/logo Kampus merdeka.png" />
             <div class="overlap-2">
                 <img class="removal-2" src="img/Logo user.png" />

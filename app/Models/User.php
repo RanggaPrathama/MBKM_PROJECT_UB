@@ -31,7 +31,12 @@ class User extends Authenticatable
         'tempat_kelahiran',
         'agama',
         'role',
-        'perguruan_tinggi'
+        'perguruan_tinggi',
+        'file_cv',
+        'file_kk',
+        'file_ktp',
+        'file_cv',
+        'surat_pengantar'
     ];
 
     /**
