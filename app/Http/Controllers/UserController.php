@@ -12,6 +12,10 @@ class UserController extends Controller
         return view('pages.auth.login');
     }
 
+    public function login_post(){
+
+    }
+
     public function indexregister(){
         return view('pages.auth.register');
     }
@@ -59,6 +63,10 @@ class UserController extends Controller
 
      return  redirect()->route('login')->with('success','Berhasil Register !');
 
+}
+
+public function homepage(){
+    return view('pages.auth.homepage');
 }
 
 }

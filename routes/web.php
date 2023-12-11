@@ -23,4 +23,4 @@ Route::get('/', function () {
 Route::get('/login',[UserController::class,'indexlogin'])->name('login');
 Route::get('/register',[UserController::class,'indexregister'])->name('register');
 Route::post('/register',[UserController::class,'register_post'])->name('register_post');
-
+Route::get('/homepage',[UserController::class,'homepage'])->name('homepage');

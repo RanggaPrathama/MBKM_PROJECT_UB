@@ -5,24 +5,24 @@
     justify-content: center;
     width: 100%;
   }
-  
+
   .home-page .div {
     background-color: #ffffff;
     width: 1280px;
     height: 832px;
     position: relative;
   }
-  
+
   .home-page .overlap {
     position: absolute;
     width: 1280px;
     height: 478px;
     top: 95px;
     left: 0;
-    background-image: url(./img/logo\ homepage.jpg);
+    background-image: url('/img/logo_homepage.jpg');
     background-size: 100% 100%;
   }
-  
+
   .home-page .kampus-merdeka {
     position: absolute;
     top: 176px;
@@ -34,7 +34,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .ambil-kendali-masa {
     position: absolute;
     top: 71px;
@@ -46,7 +46,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .overlap-group {
     position: absolute;
     width: 161px;
@@ -56,7 +56,7 @@
     background-color: #15385e;
     border-radius: 10px;
   }
-  
+
   .home-page .text-wrapper {
     position: absolute;
     top: 10px;
@@ -69,7 +69,7 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+
   .home-page .p {
     position: absolute;
     top: 591px;
@@ -82,7 +82,7 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+
   .home-page .kegiatan-dapat {
     position: absolute;
     top: 732px;
@@ -95,7 +95,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .perluas-jaringan {
     position: absolute;
     top: 732px;
@@ -108,7 +108,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .eksplorasi {
     position: absolute;
     top: 732px;
@@ -121,7 +121,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .menimba-ilmu-secara {
     position: absolute;
     top: 732px;
@@ -134,7 +134,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .home-page .group {
     position: absolute;
     width: 661px;
@@ -142,7 +142,7 @@
     top: 646px;
     left: 309px;
   }
-  
+
   .home-page .icon-three-stars-wrapper {
     position: absolute;
     width: 64px;
@@ -153,7 +153,7 @@
     border-radius: 32px;
     box-shadow: 0px 0px 4px #00000040;
   }
-  
+
   .home-page .icon-three-stars {
     position: absolute;
     width: 27px;
@@ -161,7 +161,7 @@
     top: 20px;
     left: 19px;
   }
-  
+
   .home-page .icon-task-list-wrapper {
     position: absolute;
     width: 64px;
@@ -172,7 +172,7 @@
     border-radius: 32px;
     box-shadow: 0px 0px 4px #00000040;
   }
-  
+
   .home-page .icon-task-list {
     position: absolute;
     width: 27px;
@@ -180,7 +180,7 @@
     top: 22px;
     left: 18px;
   }
-  
+
   .home-page .icon-group-wrapper {
     position: absolute;
     width: 64px;
@@ -191,7 +191,7 @@
     border-radius: 32px;
     box-shadow: 0px 0px 4px #00000040;
   }
-  
+
   .home-page .icon-group {
     position: absolute;
     width: 30px;
@@ -199,7 +199,7 @@
     top: 19px;
     left: 17px;
   }
-  
+
   .home-page .icon-bookmark-book-wrapper {
     position: absolute;
     width: 64px;
@@ -210,7 +210,7 @@
     border-radius: 32px;
     box-shadow: 0px 0px 4px #00000040;
   }
-  
+
   .home-page .icon-bookmark-book {
     position: absolute;
     width: 26px;
@@ -218,7 +218,7 @@
     top: 17px;
     left: 19px;
   }
-  
+
   .home-page .div-2 {
     position: absolute;
     width: 1280px;
@@ -227,7 +227,7 @@
     left: 0;
     background-color: #15385e;
   }
-  
+
   .home-page .MASTER {
     position: absolute;
     width: 88px;
@@ -236,7 +236,7 @@
     left: 129px;
     object-fit: cover;
   }
-  
+
   .home-page .img {
     position: absolute;
     width: 54px;
@@ -245,7 +245,7 @@
     left: 25px;
     object-fit: cover;
   }
-  
+
   .home-page .removal {
     position: absolute;
     width: 206px;
@@ -254,7 +254,7 @@
     left: 267px;
     object-fit: cover;
   }
-  
+
   .home-page .text-wrapper-2 {
     position: absolute;
     top: 37px;
@@ -267,7 +267,7 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+
   .home-page .text-wrapper-3 {
     position: absolute;
     top: 37px;
@@ -280,7 +280,7 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+
   .home-page .icon-person-wrapper {
     position: absolute;
     width: 48px;
@@ -290,7 +290,7 @@
     background-color: #ffffff;
     border-radius: 24px;
   }
-  
+
   .home-page .icon-person {
     position: absolute;
     width: 28px;
@@ -298,4 +298,3 @@
     top: 10px;
     left: 10px;
   }
-  
