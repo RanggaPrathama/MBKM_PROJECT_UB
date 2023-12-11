@@ -1,0 +1,301 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .div {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+    position: relative;
+  }
+  
+  .home-page .overlap {
+    position: absolute;
+    width: 1280px;
+    height: 478px;
+    top: 95px;
+    left: 0;
+    background-image: url(./img/logo\ homepage.jpg);
+    background-size: 100% 100%;
+  }
+  
+  .home-page .kampus-merdeka {
+    position: absolute;
+    top: 176px;
+    left: 40px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .ambil-kendali-masa {
+    position: absolute;
+    top: 71px;
+    left: 40px;
+    font-family: "Clarendon BT-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .overlap-group {
+    position: absolute;
+    width: 161px;
+    height: 36px;
+    top: 248px;
+    left: 53px;
+    background-color: #15385e;
+    border-radius: 10px;
+  }
+  
+  .home-page .text-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .p {
+    position: absolute;
+    top: 591px;
+    left: 416px;
+    font-family: "Clarendon Blk BT-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .kegiatan-dapat {
+    position: absolute;
+    top: 732px;
+    left: 267px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .perluas-jaringan {
+    position: absolute;
+    top: 732px;
+    left: 459px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .eksplorasi {
+    position: absolute;
+    top: 732px;
+    left: 666px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .menimba-ilmu-secara {
+    position: absolute;
+    top: 732px;
+    left: 858px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .group {
+    position: absolute;
+    width: 661px;
+    height: 64px;
+    top: 646px;
+    left: 309px;
+  }
+  
+  .home-page .icon-three-stars-wrapper {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 4px #00000040;
+  }
+  
+  .home-page .icon-three-stars {
+    position: absolute;
+    width: 27px;
+    height: 23px;
+    top: 20px;
+    left: 19px;
+  }
+  
+  .home-page .icon-task-list-wrapper {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 199px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 4px #00000040;
+  }
+  
+  .home-page .icon-task-list {
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    top: 22px;
+    left: 18px;
+  }
+  
+  .home-page .icon-group-wrapper {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 398px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 4px #00000040;
+  }
+  
+  .home-page .icon-group {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    top: 19px;
+    left: 17px;
+  }
+  
+  .home-page .icon-bookmark-book-wrapper {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 597px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 4px #00000040;
+  }
+  
+  .home-page .icon-bookmark-book {
+    position: absolute;
+    width: 26px;
+    height: 29px;
+    top: 17px;
+    left: 19px;
+  }
+  
+  .home-page .div-2 {
+    position: absolute;
+    width: 1280px;
+    height: 95px;
+    top: 0;
+    left: 0;
+    background-color: #15385e;
+  }
+  
+  .home-page .MASTER {
+    position: absolute;
+    width: 88px;
+    height: 47px;
+    top: 25px;
+    left: 129px;
+    object-fit: cover;
+  }
+  
+  .home-page .img {
+    position: absolute;
+    width: 54px;
+    height: 55px;
+    top: 20px;
+    left: 25px;
+    object-fit: cover;
+  }
+  
+  .home-page .removal {
+    position: absolute;
+    width: 206px;
+    height: 53px;
+    top: 20px;
+    left: 267px;
+    object-fit: cover;
+  }
+  
+  .home-page .text-wrapper-2 {
+    position: absolute;
+    top: 37px;
+    left: 786px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .text-wrapper-3 {
+    position: absolute;
+    top: 37px;
+    left: 983px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .icon-person-wrapper {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 23px;
+    left: 1186px;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+  
+  .home-page .icon-person {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+    left: 10px;
+  }
+  

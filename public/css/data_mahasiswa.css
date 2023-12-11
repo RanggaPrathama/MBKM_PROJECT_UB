@@ -1,0 +1,1142 @@
+.data-mahasiswa-admin {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .data-mahasiswa-admin .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+  }
+  
+  .data-mahasiswa-admin .overlap {
+    position: relative;
+    height: 832px;
+  }
+  
+  .data-mahasiswa-admin .overlap-group {
+    position: absolute;
+    width: 1280px;
+    height: 832px;
+    top: 0;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .side-bar {
+    position: absolute;
+    width: 267px;
+    height: 832px;
+    top: 0;
+    left: 0;
+    background-color: #0d233c;
+  }
+  
+  .data-mahasiswa-admin .head-bar {
+    position: absolute;
+    width: 1280px;
+    height: 95px;
+    top: 0;
+    left: 0;
+    background-color: #15385e;
+  }
+  
+  .data-mahasiswa-admin .profil-icon {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 23px;
+    left: 1186px;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+  
+  .data-mahasiswa-admin .icon-person {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .data-mahasiswa-admin .kampus-merdeka-logo {
+    position: absolute;
+    width: 88px;
+    height: 47px;
+    top: 25px;
+    left: 129px;
+    object-fit: cover;
+  }
+  
+  .data-mahasiswa-admin .logo-UB {
+    width: 54px;
+    height: 55px;
+    left: 25px;
+    position: absolute;
+    top: 20px;
+    object-fit: cover;
+  }
+  
+  .data-mahasiswa-admin .logo-vokasi {
+    width: 206px;
+    height: 53px;
+    left: 267px;
+    position: absolute;
+    top: 20px;
+    object-fit: cover;
+  }
+  
+  .data-mahasiswa-admin .data-mahasiswa {
+    position: absolute;
+    width: 219px;
+    height: 28px;
+    top: 209px;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .div-wrapper {
+    position: relative;
+    width: 217px;
+    height: 28px;
+    background-color: #bbbbbb80;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 19px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .div {
+    position: absolute;
+    top: 251px;
+    left: 19px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-2 {
+    top: 38px;
+    left: 1062px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .ADMISI-UB {
+    position: absolute;
+    width: 220px;
+    height: 43px;
+    top: 136px;
+    left: 24px;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .line {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    top: 42px;
+    left: 1px;
+    object-fit: cover;
+  }
+  
+  .data-mahasiswa-admin .icon-admin-site {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .logout-icon {
+    position: absolute;
+    width: 151px;
+    height: 38px;
+    top: 747px;
+    left: 59px;
+  }
+  
+  .data-mahasiswa-admin .overlap-2 {
+    position: relative;
+    width: 149px;
+    height: 38px;
+    background-color: #c81d1d;
+    border-radius: 7px;
+  }
+  
+  .data-mahasiswa-admin .icon-chevron-left {
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    top: 11px;
+    left: 17px;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-4 {
+    position: absolute;
+    top: 7px;
+    left: 44px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .filter-icon {
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    top: 119px;
+    left: 648px;
+  }
+  
+  .data-mahasiswa-admin .overlap-3 {
+    position: relative;
+    width: 108px;
+    height: 34px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #15385e;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-5 {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    font-family: "Arial-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .vector {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 15px;
+    left: 85px;
+  }
+  .data-mahasiswa-admin .groupsearch {
+    position: absolute;
+    width: 255px;
+    height: 34px;
+    top: 119px;
+    left: 374px;
+  }
+  
+  .data-mahasiswa-admin .search-icon {
+    position: absolute;
+    width: 255px;
+    height: 34px;
+    top: 119px;
+    left: 374px;
+  }
+  
+  .data-mahasiswa-admin .overlap-4 {
+    position: relative;
+    width: 253px;
+    height: 34px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #15385e;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-6 {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    font-family: "Arial-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #1e1e1e;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .icon-search {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 7px;
+    left: 12px;
+  }
+  
+  .data-mahasiswa-admin .select-option-icon {
+    position: absolute;
+    width: 36px;
+    height: 19px;
+    top: 128px;
+    left: 321px;
+  }
+  
+  .data-mahasiswa-admin .img {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 7px;
+    left: 26px;
+  }
+  
+  .data-mahasiswa-admin .rectangle {
+    width: 19px;
+    height: 19px;
+    top: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #15385e;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .resfresh-icon {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 123px;
+    left: 776px;
+    background-color: #d9d9d9;
+  }
+  
+  .data-mahasiswa-admin .icon-alternate-sync {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .data-mahasiswa-admin .overlap-5 {
+    position: absolute;
+    width: 864px;
+    height: 581px;
+    top: 182px;
+    left: 322px;
+    background-color: #efefef;
+  }
+  
+  .data-mahasiswa-admin .overlap-6 {
+    position: absolute;
+    width: 864px;
+    height: 581px;
+    top: 0;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .coloumn {
+    position: absolute;
+    width: 864px;
+    height: 505px;
+    top: 42px;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .number-text {
+    position: absolute;
+    width: 51px;
+    height: 520px;
+    top: 52px;
+    left: 17px;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-7 {
+    top: 0;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-8 {
+    top: 36px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-9 {
+    top: 71px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-10 {
+    top: 108px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-11 {
+    top: 143px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-12 {
+    top: 181px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-13 {
+    top: 218px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-14 {
+    top: 253px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-15 {
+    top: 288px;
+    left: 5px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-16 {
+    top: 325px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-17 {
+    top: 360px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-18 {
+    top: 396px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-19 {
+    top: 432px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-20 {
+    top: 467px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-21 {
+    top: 503px;
+    left: 0;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .mahasiswa-text {
+    position: absolute;
+    width: 117px;
+    height: 518px;
+    top: 52px;
+    left: 63px;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-22 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-23 {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-24 {
+    position: absolute;
+    top: 71px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-25 {
+    position: absolute;
+    top: 108px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-26 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-27 {
+    position: absolute;
+    top: 181px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-28 {
+    position: absolute;
+    top: 218px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-29 {
+    position: absolute;
+    top: 253px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-30 {
+    position: absolute;
+    top: 288px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-31 {
+    position: absolute;
+    top: 325px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-32 {
+    position: absolute;
+    top: 360px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-33 {
+    position: absolute;
+    top: 396px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-34 {
+    position: absolute;
+    top: 432px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-35 {
+    position: absolute;
+    top: 467px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-36 {
+    position: absolute;
+    top: 503px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .laporan-text {
+    position: absolute;
+    width: 58px;
+    height: 521px;
+    top: 51px;
+    left: 512px;
+  }
+  
+  .data-mahasiswa-admin .view-text {
+    width: 29px;
+    height: 517px;
+    top: 2px;
+    background-image: url(./img/group-12.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .box {
+    position: absolute;
+    width: 29px;
+    height: 517px;
+    top: 2px;
+    left: 47;
+  }
+  
+  .data-mahasiswa-admin .group {
+    position: relative;
+    width: 53px;
+    height: 514px;
+    top: 1px;
+    left: 3px;
+  }
+  
+  .data-mahasiswa-admin .mahasiswa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-37 {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-38 {
+    top: 71px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-39 {
+    top: 108px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-40 {
+    top: 143px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-41 {
+    top: 181px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-42 {
+    top: 218px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-43 {
+    top: 253px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-44 {
+    top: 288px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-45 {
+    top: 325px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-46 {
+    top: 360px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-47 {
+    top: 396px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-48 {
+    top: 432px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-49 {
+    top: 467px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-50 {
+    top: 503px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8eb28f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .doc-image {
+    position: absolute;
+    width: 13px;
+    height: 521px;
+    top: 0;
+    left: 45px;
+  }
+  
+  .data-mahasiswa-admin .logbook-text {
+    position: absolute;
+    width: 58px;
+    height: 521px;
+    top: 51px;
+    left: 714px;
+  }
+  
+  .data-mahasiswa-admin .group-wrapper {
+    width: 29px;
+    height: 517px;
+    top: 2px;
+    background-image: url(./img/group-12-2.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .slide {
+    position: absolute;
+    width: 14px;
+    height: 581px;
+    top: 0;
+    left: 850px;
+  }
+  
+  .data-mahasiswa-admin .overlap-group-2 {
+    position: relative;
+    height: 581px;
+  }
+  
+  .data-mahasiswa-admin .overlap-group-wrapper {
+    position: absolute;
+    width: 14px;
+    height: 581px;
+    top: 0;
+    left: 0;
+    background-color: #e2e1e1;
+  }
+  
+  .data-mahasiswa-admin .rectangle-2 {
+    width: 14px;
+    height: 14px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .rectangle-3 {
+    width: 14px;
+    height: 14px;
+    top: 567px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .slide-2 {
+    position: absolute;
+    width: 8px;
+    height: 572px;
+    top: 5px;
+    left: 3px;
+  }
+  
+  .data-mahasiswa-admin .rectangle-4 {
+    width: 14px;
+    height: 188px;
+    top: 14px;
+    background-color: #bbbbbb;
+    position: absolute;
+    left: 0;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-51 {
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-52 {
+    top: 13px;
+    left: 61px;
+    color: #8c8c8c;
+    font-size: 15px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-53 {
+    position: absolute;
+    top: 13px;
+    left: 513px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .data-mahasiswa-admin .text-wrapper-54 {
+    position: absolute;
+    top: 13px;
+    left: 714px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }

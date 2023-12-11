@@ -1,0 +1,407 @@
+.persyaratan {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.persyaratan .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.persyaratan .overlap-group {
+  position: absolute;
+  width: 1280px;
+  height: 214px;
+  top: 416px;
+  left: 0;
+  background-color: #f0f0f0;
+}
+
+.persyaratan .text-wrapper {
+  position: absolute;
+  top: 94px;
+  left: 55px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .minimal {
+  position: absolute;
+  top: 33px;
+  left: 252px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .s-d-d-minimal {
+  position: absolute;
+  top: 18px;
+  left: 1054px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .minimal-semester {
+  position: absolute;
+  top: 87px;
+  left: 1054px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .s-minimal-semester {
+  position: absolute;
+  top: 109px;
+  left: 252px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .text-wrapper-2 {
+  position: absolute;
+  top: 94px;
+  left: 480px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .p {
+  position: absolute;
+  top: 94px;
+  left: 718px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .tanpa-batasan {
+  position: absolute;
+  top: 136px;
+  left: 1054px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .div-2 {
+  position: absolute;
+  width: 1280px;
+  height: 95px;
+  top: 0;
+  left: 0;
+  background-color: #15385e;
+}
+
+.persyaratan .MASTER {
+  position: absolute;
+  width: 88px;
+  height: 47px;
+  top: 25px;
+  left: 129px;
+  object-fit: cover;
+}
+
+.persyaratan .img {
+  position: absolute;
+  width: 54px;
+  height: 55px;
+  top: 20px;
+  left: 25px;
+  object-fit: cover;
+}
+
+.persyaratan .removal {
+  position: absolute;
+  width: 206px;
+  height: 53px;
+  top: 20px;
+  left: 267px;
+  object-fit: cover;
+}
+
+.persyaratan .text-wrapper-3 {
+  position: absolute;
+  top: 37px;
+  left: 786px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-4 {
+  position: absolute;
+  top: 37px;
+  left: 983px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .group {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 23px;
+  left: 1186px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.persyaratan .icon-person {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 10px;
+  left: 10px;
+}
+
+.persyaratan .text-wrapper-5 {
+  position: absolute;
+  top: 141px;
+  left: 41px;
+  font-family: "Archivo Black-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .magang-dan-studi {
+  position: absolute;
+  top: 219px;
+  left: 220px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .text-wrapper-6 {
+  position: absolute;
+  top: 219px;
+  left: 465px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .pertukaran-mahasiswa {
+  position: absolute;
+  top: 215px;
+  left: 712px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .text-wrapper-7 {
+  position: absolute;
+  top: 219px;
+  left: 1008px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .jenjang-pendidikan {
+  position: absolute;
+  top: 336px;
+  left: 41px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.persyaratan .text-wrapper-8 {
+  position: absolute;
+  top: 661px;
+  left: 48px;
+  font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-9 {
+  position: absolute;
+  top: 344px;
+  left: 252px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-10 {
+  position: absolute;
+  top: 344px;
+  left: 498px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-11 {
+  left: 804px;
+  position: absolute;
+  top: 344px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-12 {
+  left: 1093px;
+  position: absolute;
+  top: 344px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-13 {
+  left: 252px;
+  position: absolute;
+  top: 661px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-14 {
+  left: 815px;
+  position: absolute;
+  top: 661px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-15 {
+  left: 504px;
+  position: absolute;
+  top: 661px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.persyaratan .text-wrapper-16 {
+  left: 1049px;
+  position: absolute;
+  top: 661px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
