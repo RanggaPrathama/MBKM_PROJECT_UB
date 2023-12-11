@@ -18,8 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 //AUTH LOGIN REGISTER
 Route::get('/login',[UserController::class,'indexlogin'])->name('login');
 Route::get('/register',[UserController::class,'indexregister'])->name('register');
-Route::post('/register_post',[UserController::class,'register_post'])->name('register_post');
+Route::post('/register',[UserController::class,'register_post'])->name('register_post');
 

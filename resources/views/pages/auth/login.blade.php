@@ -8,10 +8,20 @@
 </head>
 
 <body>
+
     <div class="login-user">
+
+
         <div class="div">
+
             <div class="overlap">
-                <div class="group">
+                {{-- @if (session('success')) --}}
+
+                {{-- @endif --}}
+
+
+                <div class="group" style="margin-top:20px">
+
                     <div>
                         <input class="email" placeholder="username" type="text" name="email"/>
                         <input class="password" placeholder="password" type="password" name="password"/>
@@ -21,17 +31,20 @@
                             <a href="homepage.html"><button class="sign-in" type="submit">Login</button></a>
                             </div>
 
-                        
+
 
                 </div>
-                <img class="removal" src="img/Logo Vokasi.png" />
+
+                <img class="removal" src="img/Logo Vokasi.png" style="margin-top: 10px">
+
                 <div class="admisi-vokasi">
-                    <a href="data_mahasiswa.html"><div class="overlap-group"></div>
-                        <div class="text-wrapper">Admisi VOKASI</div>
+                    <a href="{{ route('register') }}"><div class="overlap-group"></div>
+                        <div class="text-wrapper">Register</div>
                         <img class="icon-lock" src="img/kunci.png" />
                     </div>
                 </div>
             </div>
+
             <img class="img" src="img/Logo UB.png" />
             <img class="MASTER" src="img/logo Kampus merdeka.png" />
             <div class="overlap-2">

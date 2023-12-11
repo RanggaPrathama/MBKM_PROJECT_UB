@@ -15,22 +15,22 @@
 
             <button type="submit"><div class="overlap-group"><div class="text-wrapper">Simpan</div></div></button>
           </div>
-          <div class="text-wrapper-2">Tanggal Lahir</div>
-          <input class="TanggalLahir" placeholder="mm/dd/yyyy" type="date" name="TanggalLahir"/>
+          <div class="text-wrapper-2">Password</div>
+          <input class="TanggalLahir" placeholder="Masukkan Password" type="password" name="password"/>
           <div class="text-wrapper-4">Tempat Kelahiran</div>
-          <input class="TempatKelahiran" placeholder="Masukkan Tempat Kelahiran" type="text" name="TempatKelahiran"/>
+          <input class="TempatKelahiran" placeholder="Masukkan Tempat Kelahiran" type="text" name="tempat_kelahiran"/>
           <div class="text-wrapper-5">Nama Lengkap</div>
-          <input class="NamaLengkap" placeholder="Masukkan Nama Lengkap" type="text" name="NamaLengkap"/>
-          <div class="text-wrapper-6">Jenis Kelamin</div>
-          <input class="JenisKelamin" placeholder="Masukkan Jenis Kelamin" type="text" name="JenisKelamin"/>
-          <div class="text-wrapper-7">NIK</div>
-          <input class="NIK" placeholder="Masukkan NIK" type="text" name="NIK"/>
+          <input class="NamaLengkap" placeholder="Masukkan Nama Lengkap" type="text" name="name"/>
+          <div class="text-wrapper-6">NIM / NIK</div>
+          <input class="JenisKelamin" placeholder="Masukkan NIM atau NIK" type="text" name="nim_nik"/>
+          <div class="text-wrapper-7">Tanggal Lahir</div>
+          <input class="NIK" placeholder="mm/dd/yyyy" type="date" name="tgl_lahir"/>
           <div class="text-wrapper-8">Perguruan Tinggi</div>
-          <input class="PerguruanTinggi" placeholder="Masukkan Perguruan Tinggi" type="text" name="PerguruanTinggi"/>
+          <input class="PerguruanTinggi" placeholder="Masukkan Perguruan Tinggi" type="text" name="perguruan_tinggi"/>
           <div class="text-wrapper-9">Agama</div>
-          <input class="Agama" placeholder="Masukkan Agama" type="text" name="Agama"/>
-          <div class="text-wrapper-10">NIM</div>
-          <input class="NIM" placeholder="Masukkan NIM" type="text" name="NIM"/>
+          <input class="Agama" placeholder="Masukkan Agama" type="text" name="agama"/>
+          <div class="text-wrapper-10">Jenis Kelamin</div>
+          <input class="NIM" placeholder="Masukkan Jenis Kelamin" type="text" name="jenis_kelamin"/>
           <img class="line" src="img/Line 1.png" />
           <a href="{{ route('login') }}"><div class="kembali">&lt; Kembali</div></a>
           <div class="text-wrapper-11">Daftar</div>
