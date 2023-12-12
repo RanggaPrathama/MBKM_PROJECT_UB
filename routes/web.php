@@ -47,3 +47,5 @@ Route::post('/logout',[UserController::class,'logout'])->name('logout');
 Route::get('/programmagang',[UserController::class,'programmagang'])->name('programmagang');
 
 Route::get('/persyaratan',[UserController::class,'persyaratan'])->name('persyaratan');
+
+Route::put('/roleupdate/{id}',[UserController::class,'updaterole'])->name('user.updaterole');

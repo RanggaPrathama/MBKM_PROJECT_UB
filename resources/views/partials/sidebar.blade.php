@@ -15,13 +15,15 @@
         </a>
       </li><!-- End Dashboard Nav -->
 
+      @if(auth()->user()->role == 1)
       <li class="nav-item">
         <a class="nav-link collapsed" href="{{ route('dataAdmin') }}">
 
           <span>Data Admin</span>
         </a>
       </li><!-- End Dashboard Nav -->
-
+      @endif
+{{--
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.html">
 
@@ -34,7 +36,7 @@
 
           <span>Laporan Magang</span>
         </a>
-      </li><!-- End Dashboard Nav -->
+      </li><!-- End Dashboard Nav --> --}}
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="{{ route('logout') }}"  onclick="event.preventDefault();

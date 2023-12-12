@@ -169,4 +169,11 @@ public function programmagang(){
 public function persyaratan(){
     return view("pages.auth.persyaratan");
 }
+
+public function updaterole($id){
+    $admins = DB::table('users')->where('id_user',$id);
+    $admins->update(['role'=>1]);
+
+    return redirect()->route('dataAdmin')->with('success','Berhasil !');
+}
 }

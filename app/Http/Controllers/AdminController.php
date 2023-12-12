@@ -16,7 +16,12 @@ class AdminController extends Controller
     }
 
     public function dataAdmin(){
-        return view('pages.admin.dataAdmin');
+        $admins = DB::table('users')
+        ->where(function($query){
+            $query->where('role','=',1)
+            ->orWhere('role','=',2);
+        })->get();
+        return view('pages.admin.dataAdmin',['admins'=>$admins]);
     }
 
     public function destroyUser($id){

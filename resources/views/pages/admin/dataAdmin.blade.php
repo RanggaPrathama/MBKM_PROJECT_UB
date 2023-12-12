@@ -67,21 +67,48 @@
                   <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nama Admin</th>
-                    <th scope="col">NIM/NIK</th>
-                    <th scope="col">Password</th>
-                
+                    <th scope="col">NIK</th>
 
-                    <th scope="col">Action</th>
+                    <th scope="col">Role</th>
+                     <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Brandon Jacob</td>
-                    <td>Designer</td>
-                    <td>28</td>
-                    <td>2016-05-25</td>
-                  </tr>
+                    @foreach ($admins  as $admin )
+                    <tr>
+                        <th scope="row">{{ $admin->id_user }}</th>
+                        <td>{{ $admin->name }}</td>
+                        <td>{{ $admin->nim_nik }}</td>
+                     
+                        <td>
+                            @if ($admin->role == 1)
+                            Super Admin
+
+                            @elseif ($admin->role == 2)
+                            Admin
+                            @endif
+                        </td>
+
+                        <td>
+                            @if($admin->role==2)
+                            <form action="{{ route('user.updaterole', $admin->id_user) }}"
+                                method="POST" style="display: inline-block;">
+                                @csrf
+                                @method('PUT')
+                                <button type="submit" onclick="return confirm('Apakah anda ingin merubah ke Super Admin ?')"
+                                class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4"/>
+                                  </svg></i></button>
+
+                                  @elseif ($admin->role ==1)
+                                  NO ACTION
+                            </form>
+                            @endif
+                        </td>
+                      </tr>
+                    @endforeach
+
 
                 </tbody>
               </table>
