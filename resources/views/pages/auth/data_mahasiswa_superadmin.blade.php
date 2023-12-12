@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="{{ (data_mahasiswa_superadmin.css) }}" />
+    <link rel="stylesheet" href="{{ asset('css/data_mahasiswa_superadmin.css') }}" />
   </head>
   <body>
     <div class="data-mahasiswa-super">

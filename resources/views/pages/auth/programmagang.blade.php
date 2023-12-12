@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="programmagang.css" />
+  <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="{{ asset('css/programmagang.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="programmagang.css" /> -->
   </head>
   <body>
     <div class="program-magang">

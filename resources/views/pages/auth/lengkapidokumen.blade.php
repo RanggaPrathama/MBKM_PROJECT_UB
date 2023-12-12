@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="{{ asset('css/lengkapidokumen.css') }}" />
+=======
+
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="lengkapidokumen.css" /> -->
+>>>>>>> Stashed changes
   </head>
   <body>
     <div class="lengkapi-dokumen">
