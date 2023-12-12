@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="itemtersimpan.css" />
+    <link rel="stylesheet" href="{{ asset('css/itemtersimpan.css') }}" />
   </head>
   <body>
     <div class="item-tersimpan">
@@ -19,11 +19,15 @@
           <img class="icon-lock" src="img/lock.png" />
           <img class="icon-log-out" src="img/logout.png" />
           <img class="icon-bookmark-empty" src="img/bookmark.png" />
-          <a href="profil.html"><div class="text-wrapper-3">Profil</div></a>
-          <a href="lengkapidokumen.html"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
-          <a href="itemtersimpan.html"><div class="text-wrapper-5">Item Tersimpan</div></a>
-          <a href="ganti_katasandi.html"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
-          <a href="loginuser.html"><div class="text-wrapper-7">Keluar</div></a>
+          <a href="{{ route('profil') }}"><div class="text-wrapper-3">Profil</div></a>
+          <a href="{{ route("lengkapidokumen") }}"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
+          <a href="{{ route("itemtersimpan") }}"><div class="text-wrapper-5">Item Tersimpan</div></a>
+          <a href="{{ route("gantikatasandi") }}"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
+          <a href= "{{ route('logout') }}"  onclick="event.preventDefault();
+          document.getElementById('logout-form').submit();" ><div class="text-wrapper-7">Keluar</div></a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+        </form>
         </div>
         <div class="overlap-2">
           <div class="rectangle-2"></div>
@@ -52,7 +56,7 @@
         <img class="icon-bookmark-empty-3" src="img/bookmarkmark.png" />
         <div class="overlap-3">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img-2" src="img/Logo UB.png" />
+          <img class="img-2" src="img/LogoUb.png" />
           <img class="removal" src="img/Logo Vokasi.png" />
           <a href="programmagang.html"><div class="text-wrapper-13">Program Magang</div></a>
           <a href="unggahdokumen.html"><div class="text-wrapper-14">Unggah Dokumen</div></a>

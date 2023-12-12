@@ -36,6 +36,17 @@
         </a>
       </li><!-- End Dashboard Nav -->
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="{{ route('logout') }}"  onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();" >
+
+          <span>Keluar</span>
+        </a>
+
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+        </form>
+      </li><!-- End Dashboard Nav -->
 
 
 

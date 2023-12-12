@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="ganti_katasandi.css" />
+    <link rel="stylesheet" href="{{ asset('css/ganti_katasandi.css') }}" />
   </head>
   <body>
     <div class="ganti-kata-sandi">
       <div class="div">
         <div class="overlap">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <img class="img" src="img/LogoUb.png" />
           <img class="removal" src="img/Logo Vokasi.png" />
         </div>
         <div class="overlap-group">
@@ -25,10 +25,10 @@
           <img class="icon-lock" src="img/lock.png" />
           <img class="icon-log-out" src="img/logout.png" />
           <img class="icon-bookmark-empty" src="img/bookmark.png" />
-          <a href="lengkapidokumen.html"><div class="text-wrapper-3">Profil</div></a>
-          <a href="profil.html"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
-          <a href="itemtersimpan.html"><div class="text-wrapper-5">Item Tersimpan</div></a>
-          <a href="ganti_katasandi.html"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
+          <a href="{{ route('profil') }}"><div class="text-wrapper-3">Profil</div></a>
+          <a href="{{ route('lengkapidokumen') }}"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
+          <a href="{{ route('itemtersimpan') }}"><div class="text-wrapper-5">Item Tersimpan</div></a>
+          <a href="{{ route("gantikatasandi") }}"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
           <a href="loginuser.html"><div class="text-wrapper-7">Keluar</div></a>
         </div>
         <div class="overlap-3">

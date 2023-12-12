@@ -146,5 +146,20 @@ public function profil(){
     return view('pages.auth.lengkapidokumen');
 }
 
+public function itemtersimpan(){
+    return view('pages.auth.itemtersimpan');
+}
+
+public function gantikatasandi(){
+    return view('pages.auth.ganti_katasandi');
+}
+
+public function logout(Request $request)
+{
+    Auth::logout();
+    request()->session()->invalidate();
+    request()->session()->regenerateToken();
+    return redirect('/');
+}
 
 }
