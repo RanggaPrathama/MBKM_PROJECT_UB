@@ -209,7 +209,7 @@
   
   .profil .text-wrapper-8 {
     position: absolute;
-    top: 241px;
+    top: 230px;
     left: 33px;
     font-family: "Arial-Regular", Helvetica;
     font-weight: 400;
@@ -261,7 +261,7 @@
   
   .profil .p {
     position: absolute;
-    top: 264px;
+    top: 240px;
     left: 33px;
     font-family: "Arial-Regular", Helvetica;
     font-weight: 400;
@@ -385,9 +385,9 @@
   
   .profil .Pilihfile {
     position: relative;
-    width: 122px;
-    height: 19px;
-    background:#2c70a1; 
+    width: 150px;
+    height: 30px;
+    background:none; 
     border-radius: 3px;
   }
 
@@ -395,7 +395,7 @@
     position: relative;
     width: 122px;
     height: 19px;
-    background-color: #2c70a1;
+    background-color: none;
     border-radius: 3px;
   }
   

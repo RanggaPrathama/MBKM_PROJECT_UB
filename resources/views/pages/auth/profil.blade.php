@@ -41,18 +41,20 @@
           <div class="rectangle-6"></div>
           <div class="flexcontainer">
             <p class="text">
-              <span class="span">Pastikan kamu mengumpulkan dokumen sesuai ketentuan,ya!<br /></span>
+              <span class="span">Pastikan kamu mengumpulkan dokumen sesuai ketentuan,ya!
+              Kesalahan Data pada dokumen berakibat penolakan
+              Pemalsuan Dokumen berakibat masuk ke daftar blacklist<br /></span>
             </p>
             <p class="text">
-              <span class="span">Kesalahan Data pada dokumen berakibat penolakan<br /></span>
+              <span class="span"><br /></span>
             </p>
-            <p class="text"><span class="span">Pemalsuan Dokumen berakibat masuk ke daftar blacklist</span></p>
+            <p class="text"><span class="span"></span></p>
           </div>
           <form action="{{ route('unggahdokumen',auth()->user()->id_user) }}" method="POST" enctype="multipart/form-data">
           @csrf
           @method('PUT')
           <div class="group">
-            <input class="Pilihfile" type="file" placeholder="Pilih File" name="file_cv" />
+            <input class="Pilihfile" type="file" placeholder="Pilih File" name="" />
           </div>
           <div class="overlap-wrapper">
             <input class="Pilihfile" type="file" placeholder="Pilih File" name="file_ktp" />
