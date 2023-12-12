@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="lengkapidokumen.css" />
+    <link rel="stylesheet" href="{{ asset('css/lengkapidokumen.css') }}" />
   </head>
   <body>
     <div class="lengkapi-dokumen">
@@ -19,7 +19,7 @@
           <img class="icon-lock" src="img/lock.png" />
           <img class="icon-log-out" src="img/logout.png" />
           <img class="icon-bookmark-empty" src="img/bookmark.png" />
-          <a href=""><div class="text-wrapper-3">Profil</div></a>
+          <a href="{{ route('profil') }}"><div class="text-wrapper-3">Profil</div></a>
           <a href="profil.html"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
           <a href="itemtersimpan.html"><div class="text-wrapper-5">Item Tersimpan</div></a>
           <a href="ganti_katasandi.html"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
@@ -56,7 +56,7 @@
           <img class="removal" src="img/Logo Vokasi.png" />
           <a href="programmagang.html"><div class="text-wrapper-25">Program Magang</div></a>
           <a href="unggahdokumen.html"><div class="text-wrapper-26">Unggah Dokumen</div></a>
-          <a href="lengkapidokumen.html"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route('profil') }}"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>
     </div>

@@ -35,3 +35,5 @@ Route::get('/lengkapiDokumen',[UserController::class,'lengkapiDokumen'])->name('
 Route::put('/unggahDokumen/{id}',[UserController::class,'unggahDokumen'])->name('unggahdokumen');
 
 Route::delete('/user/delete/{id}',[AdminController::class,'destroyUser'])->name('user.destroy');
+
+Route::get('/profil',[UserController::class,'profil'])->name('profil');

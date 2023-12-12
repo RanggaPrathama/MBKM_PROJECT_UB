@@ -103,10 +103,10 @@ public function unggahDokumen($id,Request $request){
 
    try {
     $validateddata = $request->validate([
-        'file_cv' =>'required|mimes:png,jpg,jpeg,pdf|max:2048',
-        'file_kk'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
-        'file_ktp'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
-        'surat_pengantar'=>'required|mimes:png,jpg,jpeg,pdf|max:2048'
+        'file_cv' =>'nullable',
+        'file_kk'=>'nullable',
+        'file_ktp'=>'nullable',
+        'surat_pengantar'=>'nullable'
     ]);
     if($request->hasFile('file_cv')){
         $gambar = $request->file('file_cv')->getClientOriginalName();
@@ -138,7 +138,13 @@ public function unggahDokumen($id,Request $request){
 
      return redirect()->route('viewunggahdokumen')->with('success','Berhasil !');
    } catch (\Throwable $th) {
-    dd($th->getMessage());
+        return redirect()->route('viewunggahdokumen')->with($th->getMessage());
    }
 }
+
+public function profil(){
+    return view('pages.auth.lengkapidokumen');
+}
+
+
 }

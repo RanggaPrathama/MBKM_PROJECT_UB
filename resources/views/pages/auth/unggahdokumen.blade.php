@@ -19,7 +19,7 @@
           <img class="icon-lock" src="img/lock.png" />
           <img class="icon-log-out" src="img/logout.png" />
           <img class="icon-bookmark-empty" src="img/bookmark.png" />
-          <a href="lengkapidokumen.html"><div class="text-wrapper-3">Profil</div></a>
+          <a href="{{ route('profil') }}"><div class="text-wrapper-3">Profil</div></a>
           <a href="{{ route('lengkapidokumen') }}"><div class="text-wrapper-4">Lengkapi Dokumen</div></a>
           <a href="itemtersimpan.html"><div class="text-wrapper-5">Item Tersimpan</div></a>
           <a href="ganti_katasandi.html"><div class="text-wrapper-6">Ganti Kata Sandi</div></a>
