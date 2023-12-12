@@ -45,7 +45,7 @@
           <div class="text-wrapper-16">Perguruan Tinggi</div>
           <div class="text-wrapper-17">Agama</div>
           <div class="text-wrapper-18">Informasi Pribadi</div>
-          <a href="homepage.html"><div class="kembali">&lt; Kembali</div></a>
+          <a href="{{ route('home') }}"><div class="kembali">&lt; Kembali</div></a>
           <img class="line" src="img/line-1.svg" />
           <div class="text-wrapper-19">Nama Lengkap</div>
           <div class="text-wrapper-20">Jenis Kelamin</div>
@@ -53,15 +53,15 @@
           <div class="text-wrapper-22">Gresik</div>
           <div class="text-wrapper-23">Tempat Kelahiran</div>
           <div class="group">
-            <a href="homepage.html"><div class="div-wrapper"><div class="text-wrapper-24">Simpan</div></div></a>
+            <a href="{{ route('home') }}"><div class="div-wrapper"><div class="text-wrapper-24">Simpan</div></div></a>
           </div>
         </div>
         <div class="overlap-3">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/LogoUb.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="programmagang.html"><div class="text-wrapper-25">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-26">Unggah Dokumen</div></a>
+          <a href="{{ route('programmagang') }}"><div class="text-wrapper-25">Program Magang</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-26">Unggah Dokumen</div></a>
           <a href="{{ route('profil') }}"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>

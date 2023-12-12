@@ -21,18 +21,18 @@
         </div>
         <div class="div-2">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/logo Kampus merdeka.png" />
           <a href="programmagang.html"><div class="text-wrapper-3">Program Magang</div></a>
           <a href="unggahdokumen.html"><div class="text-wrapper-4">Unggah Dokumen</div></a>
           <a href="profil.html"><div class="group"><img class="icon-person" src="img/icon-person.png" /></div></a>
           <div class="div-2"></div>
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/Logo UB.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="programmagang.html"><div class="text-wrapper-3">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-4">Unggah Dokumen</div></a>
-          <a href="profil.html"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route("programmagang") }}"><div class="text-wrapper-3">Program Magang</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-4">Unggah Dokumen</div></a>
+          <a href="{{ route('profil') }}"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
         <p class="text-wrapper-5">Apa Saja Syarat Keikutsertaan Mahasiswa?</p>
         <div class="magang-dan-studi">Magang dan Studi<br />Independen</div>

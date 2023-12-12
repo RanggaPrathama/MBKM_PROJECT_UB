@@ -43,3 +43,7 @@ Route::get('/itemtersimpan',[UserController::class,'itemtersimpan'])->name('item
 Route::get('/gantikatasandi',[UserController::class,'gantikatasandi'])->name('gantikatasandi');
 
 Route::post('/logout',[UserController::class,'logout'])->name('logout');
+
+Route::get('/programmagang',[UserController::class,'programmagang'])->name('programmagang');
+
+Route::get('/persyaratan',[UserController::class,'persyaratan'])->name('persyaratan');

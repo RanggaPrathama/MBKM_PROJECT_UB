@@ -14,7 +14,7 @@
             <br />sesuai dengan aspirasi kariermu.
           </p>
           <div class="ambil-kendali-masa">Ambil Kendali<br />Masa Depanmu</div>
-          <div class="overlap-group"><a href="persyaratan.html"><div class="text-wrapper">Cek Persyaratan</div></div>
+          <div class="overlap-group"><a href="{{ route('persyaratan') }}"><div class="text-wrapper">Cek Persyaratan</div></div>
         </div></a>
         <p class="p">Apa Saja Manfaat Dari Kampus Merdeka?</p>
         <p class="kegiatan-dapat">Kegiatan Dapat Dikonversi <br />Menjadi SKS</p>
@@ -33,18 +33,18 @@
         </div>
         <div class="div-2">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/LogoUb.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/removal-4.png" />
           <a href=""><div class="text-wrapper-2">Program Magang</div></a>
           <div class="text-wrapper-3">Unggah Dokumen</div>
-          <a href="profil.html"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route('profil') }}"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
           <div class="div-2"></div>
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/LogoUb.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="loginuser.html"><div class="text-wrapper-2">Program Magang</div></a>
+          <a href="{{ route("programmagang") }}"><div class="text-wrapper-2">Program Magang</div></a>
           <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-3">Unggah Dokumen</div></a>
-          <a href="profil.html"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route('profil') }}"><div class="icon-person-wrapper"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>
     </div>

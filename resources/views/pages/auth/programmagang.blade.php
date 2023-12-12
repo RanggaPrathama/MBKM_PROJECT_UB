@@ -39,11 +39,11 @@
         <div class="div-wrapper"><div class="text-wrapper-12">Program Magang yang tersedia</div></div>
         <div class="overlap-group-2">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img-2" src="img/Logo UB.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="programmagang.html"><div class="text-wrapper-13">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-14">Unggah Dokumen</div></a>
-          <a href="lengkapidokumen.html"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route('programmagang') }}"><div class="text-wrapper-13">Program Magang</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-14">Unggah Dokumen</div></a>
+          <a href="{{ route('profil') }}"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>
     </div>

@@ -47,7 +47,7 @@
           <div class="placement-career">Placement & Career Services Intern</div>
           <img class="pngwing" src="img/pngwing 2.png" />
           <div class="text-wrapper-12">Item Tersimpan</div>
-          <a href="homepage.html"><div class="kembali">&lt; Kembali</div></a>
+          <a href="{{ route('home') }}"><div class="kembali">&lt; Kembali</div></a>
           <img class="line" src="img/Line 2.png" />
           <img class="icon-bookmark" src="img/bookmarkmark.png" />
           <img class="img" src="img/bookmarkmark.png" />
@@ -56,11 +56,11 @@
         <img class="icon-bookmark-empty-3" src="img/bookmarkmark.png" />
         <div class="overlap-3">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img-2" src="img/LogoUb.png" />
+          {{-- <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a> --}}
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="programmagang.html"><div class="text-wrapper-13">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-14">Unggah Dokumen</div></a>
-          <a href="lengkapidokumen.html"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
+          <a href="{{ route('programmagang') }}"><div class="text-wrapper-13">Program Magang</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-14">Unggah Dokumen</div></a>
+          <a href="{{ route('profil') }}"><div class="group"><img class="icon-person" src="img/person.png" /></div></a>
         </div>
       </div>
     </div>

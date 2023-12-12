@@ -41,11 +41,11 @@
         </div>
         <div class="overlap-group-2">
           <img class="MASTER" src="img/logo Kampus merdeka.png" />
-          <img class="img" src="img/LogoUb.png" />
+          <a href="{{ route("home") }}"><img class="img" src="img/LogoUb.png" /></a>
           <img class="removal" src="img/Logo Vokasi.png" />
-          <a href="programmagang.html"><div class="text-wrapper-9">Program Magang</div></a>
-          <a href="unggahdokumen.html"><div class="text-wrapper-10">Unggah Dokumen</div></a>
-          <a href="lengkapidokumen.html"><div class="group"><img class="icon-person" src="img/person.png" /></div>
+          <a href="{{ route('programmagang') }}"><div class="text-wrapper-9">Program Magang</div></a>
+          <a href="{{ route('viewunggahdokumen') }}"><div class="text-wrapper-10">Unggah Dokumen</div></a>
+          <a href="{{ route('profil') }}"><div class="group"><img class="icon-person" src="img/person.png" /></div>
         </div>
       </div>
     </div>

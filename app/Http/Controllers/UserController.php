@@ -162,4 +162,11 @@ public function logout(Request $request)
     return redirect('/');
 }
 
+public function programmagang(){
+    return view('pages.auth.programmagang');
+}
+
+public function persyaratan(){
+    return view("pages.auth.persyaratan");
+}
 }
