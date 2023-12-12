@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="data_mahasiswa.css" />
+    <link rel="stylesheet" href="{{ asset('css/data_mahasiswa.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="data_mahasiswa.css" /> -->
   </head>
   <body>
     <div class="data-mahasiswa-admin">

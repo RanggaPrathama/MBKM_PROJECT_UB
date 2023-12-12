@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="persyaratan.css" />
+  <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="{{ asset('css/persyaratan.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="persyaratan.css" /> -->
   </head>
   <body>
     <div class="persyaratan">

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="itemtersimpan.css" />
+  <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="{{ asset('css/itemtersimpan.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="itemtersimpan.css" /> -->
   </head>
   <body>
     <div class="item-tersimpan">

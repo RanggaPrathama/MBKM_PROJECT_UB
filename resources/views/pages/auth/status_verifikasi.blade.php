@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="status_verifikasi.css" />
+    <link rel="stylesheet" href="{{ asset('css/status_verifikasi.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="status_verifikasi.css" /> -->
   </head>
   <body>
     <div class="status-verifikasi">

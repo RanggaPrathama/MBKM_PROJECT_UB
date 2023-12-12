@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="ganti_katasandi.css" />
+    <link rel="stylesheet" href="{{ asset('css/ganti_katasandi.css') }}" />
+    <!-- <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="ganti_katasandi.css" /> -->
   </head>
   <body>
     <div class="ganti-kata-sandi">
